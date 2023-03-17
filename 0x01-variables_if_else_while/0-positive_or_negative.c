@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /* if else while */
 
 /* Positive anything is better than negative nothing */
