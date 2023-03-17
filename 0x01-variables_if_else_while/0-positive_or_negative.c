@@ -1,7 +1,7 @@
 #include <stdio.h>
-/* Positive anything is better than negative nothing */
+/* if else while */
 
-/* betty style doc for function main goes there */
+/* Positive anything is better than negative nothing */
 int main(void)
 {
 	int n;
@@ -11,15 +11,15 @@ int main(void)
 	scanf("%d",&n);
 	if(n>0)
 	{
-		printf("%d is positive",n)
+		printf("%d is positive",n);
 	}
 	if(n=0)
         {
-                printf("%d is zero",n)
+                printf("%d is zero",n);
         }
 	if(n<0)
         {
-                printf("%d is negative",n)
+                printf("%d is negative",n);
         }
 	return (0);
 }
