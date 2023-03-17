@@ -1,9 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* if else while */
+/**
+ *
+ * main - scheck if positive negative or zero
+ *
+ * return: 0 (success)
 
-/* Positive anything is better than negative nothing */
+ */
 int main(void)
 {
 	int n;
