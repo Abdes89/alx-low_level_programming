@@ -1,17 +1,18 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
 
 /**
- * main - The last digit
+ * main - print last digit in random number
  *
- * description: This program will assign a random number to the variable n each time it is executed.
+ * Description: print last digit in random number
  *
- * Return: Always 0
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	int n;
+	int n, last;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
