@@ -1,9 +1,9 @@
 #include <stdio.h>
-
+#inlude <unistd.h>
 /**
  * main - program that prints exactly a sentence
  *
- * Return: (1) (success)
+ * Return: 1 (success)
  */
 int main(void)
 {
